@@ -4,13 +4,14 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>388bd06d-4e2f-4de3-afdd-e2e32d1eaa5c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>src\PathGenerationAlgorithm.py</StartupFile>
+    <StartupFile>src\main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>PathGenerationAlgorithm</Name>
     <RootNamespace>PathGenerationAlgorithm</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +22,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="src\LagrangeInterpolation.py" />
+    <Compile Include="src\main.py" />
     <Compile Include="src\PathGenerationAlgorithm.py" />
+    <Compile Include="src\wayPoints.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="src\" />
