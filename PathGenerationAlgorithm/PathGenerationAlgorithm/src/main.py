@@ -7,7 +7,8 @@ import matplotlib.pyplot as plt
 
 LI = LagrangeInterpolation.LagrangeInterpolation()
 
-X = np.random.seed(10)
+X = wayPoints.generate_numbers(4, 200, 20)
+print(X)
 plt.scatter(X, X)
 
 plt.show()
